@@ -1,0 +1,32 @@
+body{
+    background-color: black; 
+}
+
+#back{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+}
+#light{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  visibility: hidden;
+}
+
+.btn_container{
+  position: absolute;
+  top: 150px;
+}
+  
+btn{
+  background-color: red;
+}
